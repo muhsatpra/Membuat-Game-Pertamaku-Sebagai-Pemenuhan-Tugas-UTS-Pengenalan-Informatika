@@ -3,7 +3,7 @@
 ## 1.1 Latar Belakang
 Sejak kecil, aku menghabisi masa ceriaku dengan membaca, menulis, menggambar, dan terutama bermain video game. Dari sana saya bermimpi untuk membuat video game, walau hanya bisa mempelajari cara membuat video game dari Youtube dan bermain di console dan laptop yang seadanya. Dan kali ini aku mendapatkan kesempatan untuk membuat game pertamaku sebagai tugas UTS setelah lama mempelajari cara membuat video game dan menunggu device yang memadai. 
 
-Ini adalah Paradigm Shift, project pertama game dari banyak projek game yang telah kurencanakan, dimulai dengan genre Role Playing Game (RPG) seperti series game Persona, dengan tema Indonesia, 3D game, dan open world. Game ini akan berfokus pada story protagonis Andi yang menemukan sebuah alat yang dapat memasuki dunia seperti Virtual Reality, namun alih alih memasuki dunia Virtual, Andi masuk ke dimensi lain dimana dunia tersebut benar benar berbeda sesuai representasi dari Creator disana, dan dunia asli tersebut berhenti sementara. Andi bertemu dengan kelompok Shifter untuk mengungkap Creator dan Project T yang berada di dunia Paradigm tersebut.
+Ini adalah Paradigm Shift, project pertama game dari banyak projek game yang telah kurencanakan, dimulai dengan genre Role Playing Game (RPG) seperti series game Persona, dengan tema Indonesia, 3D game, dan open world. Game ini akan berfokus pada story protagonis Andi yang menemukan sebuah alat yang dapat memasuki dunia seperti Virtual Reality, namun alih alih memasuki dunia Virtual, Andi masuk ke dimensi lain dimana dunia tersebut benar benar berbeda sesuai representasi dari Creator disana, dan dunia asli tersebut berhenti sementara. Andi bertemu dengan kelompok Shifter untuk mengungkap misteri The Ultimate Creator dan Project T yang berada di dunia Paradigm tersebut.
 
 Paradigm Shift akan menawarkan berbagai fitur dengan tujuan mengembalikan keseruan bermain game PS2 yang memiliki fitur yang seru, cerita yang seru, dan gameplay yang menyenangkan dengan grafik jaman sekarang . Gamer yang bermain game jaman sekarang banyak mengeluh bahwa game sekarang tidak enjoy untuk dimainkan lagi, bahkan kalau game tersebut ditamatkan dan banyak fanbasenya, game tersebut kurang iconic dibandingkan game jaman dulu seperti GTA, Resident Evil, Mario, dan masih banyak lagi. Fitur yang akan ditawarkan Pararigm Shift dimulai dengan game open world dimana akan banyak yang bisa dieksplor, mulai dari dunia yang interaktif, npc yang bisa diajak ngobrol, membangun chemistry dengan rekan Shifter di dunia Paradigm dan teman kuliah di dunia nyata, perang gang, desain Soul (Skin yang dapat digunakan karakter dan jurus yang unik setelah mengalahkan Creation), memasak, membeli barang, crafting senjata dan item, multiplayer roam, online battle minigame, online roam, sistem achievement, easter egg, rahasia, dan lain sebagainya.
 
@@ -31,16 +31,16 @@ Teknologi Informasi yang digunakan untuk membuat game Paradigm Shift adalah Unit
 ![20231018_094352](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/fbcb5d95-4a9e-4471-a25b-1f6faa4b9a62)
 
 
-  Merek = Paradigm Shift
-  Tagline = Shift Your Paradigm
-  Campaign = Membuat Game yang memiliki kekayaan story yang seru, fitur yang banyak dan menarik, dan mengembalikan keseruan game jaman dulu dengan grafik jaman sekarang
-  Target User =
+1. Merek = Paradigm Shift
+2. Tagline = Shift Your Paradigm
+3. Campaign = Membuat Game yang memiliki kekayaan story yang seru, fitur yang banyak dan menarik, dan mengembalikan keseruan game jaman dulu dengan grafik jaman sekarang
+4. Target User =
 -Usia 13+
 -Pemain casual yang rindu dengan keseruan game jaman dulu
 -Pemain rpg yang menyukai fitur bertarung yang unik
 -Pemain yang menyukai story yang panjang, kaya dan menarik
 -Pemain yang menyukai nuansa Indonesia
-User Experience =
+5. User Experience =
 - Sederhana
 - Menarik
 - Banyak fitur
@@ -57,7 +57,7 @@ User Experience =
 
 ## 2. User Story
 
-Sebagai | Saya Dapat | Sehingga | Prioritas
+Sebagai | Kita Dapat | Sehingga | Prioritas
 ---|---|---|---
 Pengguna | Menggerakan Karakter | Dapat bergerak | ⭐⭐⭐⭐⭐
 Pengguna | Mengalahkan Musuh | Mendapatkan Item dan Exp | ⭐⭐⭐⭐⭐
@@ -70,6 +70,8 @@ Pengguna | Mendapatkan beragam ending | Mendapatkan kepuasan dan ending atas pil
 Pengguna | Menamatkan Main Quest dan Side Quest | Mendapatkan sisi lain story yang unik dengan easter egg di dalamnya | ⭐⭐⭐⭐⭐
 Pengguna | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐⭐
 Pengguna | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐⭐
+Pengguna | Main multiplayer offline di 2 dunia | Merasakan keseruan bersama teman dan menambah persahabatan sekitar | ⭐⭐⭐⭐⭐
+Pengguna | Main multiplayer online dan minigame khusus | Merasakan keseruan bersama teman dan menambah relasi di internasional | ⭐⭐⭐⭐⭐
 Pengguna | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
 Pengguna | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
 Pengguna | Mengupgrade kualitas item di dunia Paradigm | Menaikkan level item agar lebih mudah melawan musuh | ⭐⭐⭐⭐
@@ -82,3 +84,4 @@ Pengguna | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli denga
 Pengguna | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐
 Pengguna | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
 Pengguna | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+
