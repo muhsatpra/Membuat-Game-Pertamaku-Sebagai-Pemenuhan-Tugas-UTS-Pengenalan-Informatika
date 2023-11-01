@@ -42,6 +42,25 @@ User Experience =
 - Menarik
 - Banyak fitur
 - Warna = Suasana melankolis, colorful
-- Inspirasi Design
+- Inspirasi Desain =
+  
   ![sdefionwvigndrsn flon](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/ef1df2f5-b827-430f-923e-9616bada0910)
 
+![02L3XEvze5KXJORoPGCGMyk-7 fit_scale size_760x427 v1639604404](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/f4504aee-53fe-42a3-a1ff-c38a5d2378e3)
+
+![05kV0iHXtm9IkEu1PMkh9pX-4 v1569481406](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/5f7c5b07-c381-4f88-b764-96e749781f87)
+
+## 2. User Story
+
+Sebagai | Saya Dapat | Sehingga | Prioritas
+---|---|---|---
+Pengguna | Menggerakan Karakter | Dapat bergerak | ⭐⭐⭐⭐⭐
+Pengguna | Mengalahkan Musuh | Mendapatkan Item dan Exp | ⭐⭐⭐⭐⭐
+Pengguna | Menggunakan Jurus | Puas melihat jurus tersebut | ⭐⭐⭐⭐⭐
+Pengguna | Melawan musuh secara real time | Fokus pada keseruan gameplay | ⭐⭐⭐⭐⭐
+Pengguna | Melawan musuh secara turn base | Menggunakan strategi untuk melawan musuh | ⭐⭐⭐⭐⭐
+Pengguna | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐⭐
+Pengguna | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐⭐
+Pengguna | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐⭐
+Pengguna | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐⭐
+Pengguna | Melawan musuh secara turn base | Menggunakan strategi untuk melawan musuh | ⭐⭐⭐⭐⭐
