@@ -28,6 +28,9 @@ Teknologi Informasi yang digunakan untuk membuat game Paradigm Shift adalah Unit
 
 ## 1.3. Branding
 
+![20231018_094352](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/fbcb5d95-4a9e-4471-a25b-1f6faa4b9a62)
+
+
 Merek = Paradigm Shift
 Tagline = Shift Your Paradigm
 Campaign = Membuat Game yang memiliki kekayaan story yang seru, fitur yang banyak dan menarik, dan mengembalikan keseruan game jaman dulu dengan grafik jaman sekarang
@@ -62,6 +65,9 @@ Pengguna | Menggunakan Jurus | Puas melihat jurus tersebut | ⭐⭐⭐⭐⭐
 Pengguna | Melawan musuh secara real time | Fokus pada keseruan gameplay | ⭐⭐⭐⭐⭐
 Pengguna | Melawan musuh secara turn base | Menggunakan strategi untuk melawan musuh | ⭐⭐⭐⭐⭐
 Pengguna | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐⭐
+Pengguna | Menamatkan Story Mode | Menikmati story yang menarik | ⭐⭐⭐⭐⭐
+Pengguna | Mendapatkan beragam ending | Mendapatkan kepuasan dan ending atas pilihan user | ⭐⭐⭐⭐⭐
+Pengguna | Menamatkan Main Quest dan Side Quest | Mendapatkan sisi lain story yang unik dengan easter egg di dalamnya | ⭐⭐⭐⭐⭐
 Pengguna | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐⭐
 Pengguna | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐⭐
 Pengguna | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
@@ -70,7 +76,7 @@ Pengguna | Mengupgrade kualitas item di dunia Paradigm | Menaikkan level item ag
 Pengguna | Berburu di dunia Paradigm | Mendapatkan daging untuk dimasak | ⭐⭐⭐⭐
 Pengguna | Memancing di dunia Paradigm | Mendapatkan ikan untuk dimasak | ⭐⭐⭐⭐
 Pengguna | Mengambil tanaman di dunia Paradigm | Mendapatkan tanaman sebagai obat dan buff | ⭐⭐⭐⭐
-Pengguna | Melawan musuh secara turn base | Menggunakan strategi untuk melawan musuh | ⭐⭐⭐⭐
+Pengguna | Memecahkan puzzle di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
 Pengguna | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐
 Pengguna | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐
 Pengguna | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐
