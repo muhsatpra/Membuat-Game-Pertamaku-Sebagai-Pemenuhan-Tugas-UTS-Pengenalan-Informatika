@@ -31,10 +31,10 @@ Teknologi Informasi yang digunakan untuk membuat game Paradigm Shift adalah Unit
 ![20231018_094352](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/fbcb5d95-4a9e-4471-a25b-1f6faa4b9a62)
 
 
-Merek = Paradigm Shift
-Tagline = Shift Your Paradigm
-Campaign = Membuat Game yang memiliki kekayaan story yang seru, fitur yang banyak dan menarik, dan mengembalikan keseruan game jaman dulu dengan grafik jaman sekarang
-Target User =
+  Merek = Paradigm Shift
+  Tagline = Shift Your Paradigm
+  Campaign = Membuat Game yang memiliki kekayaan story yang seru, fitur yang banyak dan menarik, dan mengembalikan keseruan game jaman dulu dengan grafik jaman sekarang
+  Target User =
 -Usia 13+
 -Pemain casual yang rindu dengan keseruan game jaman dulu
 -Pemain rpg yang menyukai fitur bertarung yang unik
