@@ -43,8 +43,10 @@ User Experience =
 - Banyak fitur
 - Warna = Suasana melankolis, colorful
 - Inspirasi Desain =
-  
-  ![sdefionwvigndrsn flon](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/ef1df2f5-b827-430f-923e-9616bada0910)
+
+![Persona-5-Strikers-20_02_2021-3_34_32-PM](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/c81afd92-11ce-4126-a8b5-e54ce0d7407a)
+
+![genshin-impact-1](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/5280162c-bccb-42c6-a7eb-903603bf57d5)
 
 ![02L3XEvze5KXJORoPGCGMyk-7 fit_scale size_760x427 v1639604404](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/f4504aee-53fe-42a3-a1ff-c38a5d2378e3)
 
@@ -62,5 +64,15 @@ Pengguna | Melawan musuh secara turn base | Menggunakan strategi untuk melawan m
 Pengguna | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐⭐
 Pengguna | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐⭐
 Pengguna | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐⭐
-Pengguna | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐⭐
-Pengguna | Melawan musuh secara turn base | Menggunakan strategi untuk melawan musuh | ⭐⭐⭐⭐⭐
+Pengguna | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+Pengguna | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+Pengguna | Mengupgrade kualitas item di dunia Paradigm | Menaikkan level item agar lebih mudah melawan musuh | ⭐⭐⭐⭐
+Pengguna | Berburu di dunia Paradigm | Mendapatkan daging untuk dimasak | ⭐⭐⭐⭐
+Pengguna | Memancing di dunia Paradigm | Mendapatkan ikan untuk dimasak | ⭐⭐⭐⭐
+Pengguna | Mengambil tanaman di dunia Paradigm | Mendapatkan tanaman sebagai obat dan buff | ⭐⭐⭐⭐
+Pengguna | Melawan musuh secara turn base | Menggunakan strategi untuk melawan musuh | ⭐⭐⭐⭐
+Pengguna | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐
+Pengguna | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐
+Pengguna | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐
+Pengguna | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+Pengguna | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
