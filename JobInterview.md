@@ -32,8 +32,16 @@ Merek = Paradigm Shift
 Tagline = Shift Your Paradigm
 Campaign = Membuat Game yang memiliki kekayaan story yang seru, fitur yang banyak dan menarik, dan mengembalikan keseruan game jaman dulu dengan grafik jaman sekarang
 Target User =
--Usia 16+
+-Usia 13+
 -Pemain casual yang rindu dengan keseruan game jaman dulu
 -Pemain rpg yang menyukai fitur bertarung yang unik
 -Pemain yang menyukai story yang panjang, kaya dan menarik
 -Pemain yang menyukai nuansa Indonesia
+User Experience =
+- Sederhana
+- Menarik
+- Banyak fitur
+- Warna = Suasana melankolis, colorful
+- Inspirasi Design
+  ![sdefionwvigndrsn flon](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/ef1df2f5-b827-430f-923e-9616bada0910)
+
