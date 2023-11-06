@@ -52,7 +52,7 @@ Setelah berkenalan dengan anggota Shifter, Andi dapat kembali ke dunia aslinya d
 Pada User Story, terdapat banyak user yang memiliki fungsinya masing-masing, mulai dari Player, NPC teman, NPC biasa, NPC musuh, Creator, Beast, Inventory, Minigame, Extra, dan the Ultimate Creator.
 
 No | Sebagai | Kita Dapat | Sehingga | Prioritas
----|---|---|---|---
+--- | --- | --- | --- | ---
 1. | Player | Menggerakan Karakter | Dapat bergerak | ⭐⭐⭐⭐⭐
 2. | Player | Mengalahkan Musuh | Mendapatkan Item dan Exp | ⭐⭐⭐⭐⭐
 3. | Player | Menggunakan Jurus | Puas melihat jurus tersebut | ⭐⭐⭐⭐⭐
