@@ -54,7 +54,7 @@ Pada User Story, terdapat banyak user yang memiliki fungsinya masing-masing, mul
 1. Player
 
 No | Kita Dapat | Sehingga | Prioritas
---- | --- | --- | --- | ---
+--- | --- | --- | ---
 1 | Menggerakan Karakter | Dapat bergerak | ⭐⭐⭐⭐⭐
 2 | Mengalahkan Musuh | Mendapatkan Item dan Exp | ⭐⭐⭐⭐⭐
 3 | Menggunakan Jurus | Puas melihat jurus tersebut | ⭐⭐⭐⭐⭐
