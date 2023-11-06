@@ -19,17 +19,9 @@ Awal mulanya Andi masuk ke dunia Paradigm di Scene Medieval dimana bagian Dunia 
 Setelah berkenalan dengan anggota Shifter, Andi dapat kembali ke dunia aslinya dengan memencet tombol yang berada di device Project T yang bernama Teleporter untuk beristirahat. Namun saat kembali ke dunia asli, waktu menunjukkan jam yang sama saat Andi menemukan Teleporter. Padahal ketika di Dunia Paradigm waktu sudah berjalan cukup lama. Penjelasan dari Dr.Xenon menjelaskan bahwa Dunia Paradigm berbeda dengan dunia virtual, dimana dunia virtual ini berada di multiverse lain yang diciptakan oleh The Ultimate Creator itu sendiri, dan Teleporter tersebut bertujuan untuk pindah dari Dunia Paradigm ke dunia sekarang dengan menghentikan waktu di dunia sekarang. Saat dunia Paradim berjalan, dunia sekarang berhenti, dan sebaliknya. Lalu Andi bertemu dengan Amir saat di kosan dan bertemu dengan Alia saat masa perkenalan. Andi juga bertemu dengan Dr.Felix yang ternyata ketua jurusan disana dengan nama asli Ferdi dan Dr.Xenon yang ternyata rektor disana dengan nama asli Seno. Disini Andi dapat mengeksplorasi antara Dunia Paradigm dan dunia nyata dengan bebas dan sudah mulai free roam dan open world tanpa guide introduction lagi. Disini akan ada banyak ending tergantung dari pilihan player. Salah satunya jika player hanya berfokus di dunia nyata tanpa menghiraukan Dunia Paradigm, Andi akan dikecam oleh Pa Seno karena tidak membantunya mengungkap Project T dan akan mendapatkan ending tersebut.
 [SPOILER END]
 
-Teknologi Informasi yang digunakan untuk membuat game Paradigm Shift adalah Unity, Blender, Visual Studio, PixelLab, dan Bandlab :
-1. Unity digunakan untuk mengimport asset 3d, mengatur asset 3d, dan mengumpulkan semua bahan untuk disusun menjadi game yang terpadu.
-2. Blender digunakan untuk membuat asset 3d dari awal. Blender berguna untuk membuat desain sendiri yang sesuai dengan desain game yang kita inginkan, misal tokoh karakter utama.
-3. Visual Studio digunakan untuk mengcoding game agar bisa berfungsi. Visual Studio memiliki keunggulan dibanding VS Code atau program codingan lain, dimana ada plugin khusus Unity untuk mengcoding yang menggunakan bahasa C#.
-4. PixelLab digunakan untuk menggunakan desain background, karakter, dan lainnya dalam bentuk gambar dan desain grafis.
-5. BandLab digunakan untuk membuat musik sendiri agar tidak terkena copyright claim ketika mempublish game ke platform publik.
-
 ## 1.3. Branding
 
-![20231018_094352](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/fbcb5d95-4a9e-4471-a25b-1f6faa4b9a62)
-
+![20231018_094427](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/4cc3ece7-30cc-4990-95a7-6ffb1c8e6945)
 
 1. Merek = Paradigm Shift
 2. Tagline = Shift Your Paradigm
@@ -57,33 +49,35 @@ Teknologi Informasi yang digunakan untuk membuat game Paradigm Shift adalah Unit
 
 ## 2. User Story
 
-Sebagai | Kita Dapat | Sehingga | Prioritas
----|---|---|---
-Pengguna | Menggerakan Karakter | Dapat bergerak | ⭐⭐⭐⭐⭐
-Pengguna | Mengalahkan Musuh | Mendapatkan Item dan Exp | ⭐⭐⭐⭐⭐
-Pengguna | Menggunakan Jurus | Puas melihat jurus tersebut | ⭐⭐⭐⭐⭐
-Pengguna | Melawan musuh secara real time | Fokus pada keseruan gameplay | ⭐⭐⭐⭐⭐
-Pengguna | Melawan musuh secara turn base | Menggunakan strategi untuk melawan musuh | ⭐⭐⭐⭐⭐
-Pengguna | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐⭐
-Pengguna | Menamatkan Story Mode | Menikmati story yang menarik | ⭐⭐⭐⭐⭐
-Pengguna | Mendapatkan beragam ending | Mendapatkan kepuasan dan ending atas pilihan user | ⭐⭐⭐⭐⭐
-Pengguna | Menamatkan Main Quest dan Side Quest | Mendapatkan sisi lain story yang unik dengan easter egg di dalamnya | ⭐⭐⭐⭐⭐
-Pengguna | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐⭐
-Pengguna | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐⭐
-Pengguna | Main multiplayer offline di 2 dunia | Merasakan keseruan bersama teman dan menambah persahabatan sekitar | ⭐⭐⭐⭐⭐
-Pengguna | Main multiplayer online dan minigame khusus | Merasakan keseruan bersama teman dan menambah relasi di internasional | ⭐⭐⭐⭐⭐
-Pengguna | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
-Pengguna | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
-Pengguna | Mengupgrade kualitas item di dunia Paradigm | Menaikkan level item agar lebih mudah melawan musuh | ⭐⭐⭐⭐
-Pengguna | Berburu di dunia Paradigm | Mendapatkan daging untuk dimasak | ⭐⭐⭐⭐
-Pengguna | Memancing di dunia Paradigm | Mendapatkan ikan untuk dimasak | ⭐⭐⭐⭐
-Pengguna | Mengambil tanaman di dunia Paradigm | Mendapatkan tanaman sebagai obat dan buff | ⭐⭐⭐⭐
-Pengguna | Memecahkan puzzle di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
-Pengguna | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐
-Pengguna | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐
-Pengguna | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐
-Pengguna | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
-Pengguna | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+Pada User Story, terdapat banyak user yang memiliki fungsinya masing-masing, mulai dari Player, NPC teman, NPC biasa, NPC musuh, Creator, Beast, Inventory, Minigame, Extra, dan the Ultimate Creator.
+
+No | Sebagai | Kita Dapat | Sehingga | Prioritas
+---|---|---|---|---
+1. | Player | Menggerakan Karakter | Dapat bergerak | ⭐⭐⭐⭐⭐
+2. | Player | Mengalahkan Musuh | Mendapatkan Item dan Exp | ⭐⭐⭐⭐⭐
+3. | Player | Menggunakan Jurus | Puas melihat jurus tersebut | ⭐⭐⭐⭐⭐
+4. | Player | Melawan musuh secara real time | Fokus pada keseruan gameplay | ⭐⭐⭐⭐⭐
+5. | Player | Melawan musuh secara turn base | Menggunakan strategi untuk melawan musuh | ⭐⭐⭐⭐⭐
+6. | Player | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐⭐
+7. | Player | Menamatkan Story Mode | Menikmati story yang menarik | ⭐⭐⭐⭐⭐
+8. | Player | Mendapatkan beragam ending | Mendapatkan kepuasan dan ending atas pilihan user | ⭐⭐⭐⭐⭐
+9. | Player | Menamatkan Main Quest dan Side Quest | Mendapatkan sisi lain story yang unik dengan easter egg di dalamnya | ⭐⭐⭐⭐⭐
+10. | Player | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐⭐
+11. | Player | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐⭐
+12. | Player | Main multiplayer offline di 2 dunia | Merasakan keseruan bersama teman dan menambah persahabatan sekitar | ⭐⭐⭐⭐⭐
+13. | Player | Main multiplayer online dan minigame khusus | Merasakan keseruan bersama teman dan menambah relasi di internasional | ⭐⭐⭐⭐⭐
+14. | Player | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+15. | Player | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+16. | Player | Mengupgrade kualitas item di dunia Paradigm | Menaikkan level item agar lebih mudah melawan musuh | ⭐⭐⭐⭐
+17. | Player | Berburu di dunia Paradigm | Mendapatkan daging untuk dimasak | ⭐⭐⭐⭐
+18. | Player | Memancing di dunia Paradigm | Mendapatkan ikan untuk dimasak | ⭐⭐⭐⭐
+19. | Player | Mengambil tanaman di dunia Paradigm | Mendapatkan tanaman sebagai obat dan buff | ⭐⭐⭐⭐
+20. | Player | Memecahkan puzzle di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
+21. | Player | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐
+22. | Player | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐
+23. | Player | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐
+24. | Player | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+25. | Player | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
 
 ## 3. Struktur Data
 
@@ -101,7 +95,13 @@ Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/synta
 
 ## 5. Teknologi, Library, dan Framework
 
-bla bla bla
+Teknologi Informasi yang digunakan untuk membuat game Paradigm Shift adalah Unity, Blender, Visual Studio, PixelLab, dan Bandlab :
+1. Unity digunakan untuk mengimport asset 3d, mengatur asset 3d, dan mengumpulkan semua bahan untuk disusun menjadi game yang terpadu.
+2. Blender digunakan untuk membuat asset 3d dari awal. Blender berguna untuk membuat desain sendiri yang sesuai dengan desain game yang kita inginkan, misal tokoh karakter utama.
+3. Visual Studio digunakan untuk mengcoding game agar bisa berfungsi. Visual Studio memiliki keunggulan dibanding VS Code atau program codingan lain, dimana ada plugin khusus Unity untuk mengcoding yang menggunakan bahasa C#.
+4. PixelLab digunakan untuk menggunakan desain background, karakter, dan lainnya dalam bentuk gambar dan desain grafis.
+5. BandLab digunakan untuk membuat musik sendiri agar tidak terkena copyright claim ketika mempublish game ke platform publik.
+
 
 ## 6. Desain User Experience dan User Interface
 
