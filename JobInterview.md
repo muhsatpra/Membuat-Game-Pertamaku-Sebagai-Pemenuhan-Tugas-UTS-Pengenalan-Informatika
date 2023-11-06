@@ -110,20 +110,37 @@ Bisa load image
 
 ## 7. Demonstrasi Video
 
-Link youtube nya
+![20231106_125844](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/646da68a-ece1-4a07-9b83-81646154bfef)
+
+https://youtu.be/HzC67H-aHIw?si=18Cmy-rppTi5vUnr
+
+01:36 Demonstrasi Game
+06:03 Source Code #1 (Audio Manager)
+10:07 Source Code #2 (Cutscene Time)
+11:17 Source Code #3 (Loading Screen)
+15:50 Source Code #4 dan #5 (Change Scene)
+18:24 Source Code #6 dan #7 (Character Movement)
 
 ## 8. Bagaimana mesin komputasi dan sistem operasi berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
+https://youtu.be/HzC67H-aHIw?si=18Cmy-rppTi5vUnr
+
+23:53 Proses Mesin Komputasi dan Sistem Operasi dalam Game
 
 ## 9. Bagaimana algoritma, struktur data, dan bahasa pemrograman berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
+https://youtu.be/HzC67H-aHIw?si=18Cmy-rppTi5vUnr
+
+26:28 Peran Algoritma, Struktur Data, dan Bahasa Pemrograman dalam Game
 
 ## 10. Bagaimana metode pengembangan perangkat lunak / Software Development Life Cycle berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
+https://youtu.be/HzC67H-aHIw?si=18Cmy-rppTi5vUnr
+
+33:06 SDLC (Software Development Life Cycle)
 
 ## 11. Bagaimana database / sistem basis data berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
+https://youtu.be/HzC67H-aHIw?si=18Cmy-rppTi5vUnr
+
+37:32 Peran Sistem Database/Basis Data dalam Game
