@@ -78,7 +78,7 @@ No | Kita Dapat | Sehingga | Prioritas
 21 | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐
 22 | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐
 23 | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐
-24 | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+24 | Pindah Scene di dunia Paradigm | Menjelajahi dunia baru dengan environment yang unik | ⭐⭐⭐⭐
 25 | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
 
 ## 3. Struktur Data
