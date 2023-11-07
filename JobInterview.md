@@ -12,6 +12,7 @@ Paradigm Shift akan menawarkan berbagai fitur dengan tujuan mengembalikan keseru
 Gameplay mekanik Paradigm Shift terinspirasi dengan berbagai iconic game RPG dan lainnya, mulai dari Final Fantasy, Persona, GTA Series, Yakuza, Skyrim, dan lainnya. Pemain akan menghidupi kegiatan di dunia nyata dan dunia Paradigma dimana pemain dapat bermain bebas, menjalani kehidupan kampus, dan menjalani kehidupan di dunia nyata, sedangkan kita dapat melawan Creation, mengungkap misteri Creator, berinteraksi dengan dunia yang unik, dan masih banyak lagi. Gameplay bertarung akan dibagi menjadi dua, yaitu real time RPG fighting seperti Kingdom Hearts, dan turn base RPG seperti Persona.
 
 [SPOILER ALERT]
+
 Story mekanik akan berfokus pada survival, rpg, openworld, freeroam, battle, puzzle, dan banyak lagi. Sedikit spoiler hehe, untuk gameplay awal pemain akan diceritakan bahwa Andi baru saja mendapat pengumuman masuk kuliah melalui jalur snbt. Andi masuk ke salah satu univ favorit di Indonesia yaitu Universitas Teknologi. Andi merantau dari Rinciang ke Danguban dengan naik bus dan menetap di kosan. Saat sampai di kosan dan beres beres kamar, Andi menemukan box yang berisi device teknologi yang terlihat kompleks dan menemukan tulisan "Project T" pada salah satu device yang dapat digenggam seperti Jarvis Ironman. Lalu Andi terteleportasi ke dunia baru yang benar benar berbeda. Disinilah kisah Andi bermulai.
 
 Awal mulanya Andi masuk ke dunia Paradigm di Scene Medieval dimana bagian Dunia ini akan disuguhkan dengan dunia medieval seperti tema game RPG pada umumnya, dimana Andi akan bertemu dengan Raja Charles dari Kerajaan Pletoria dimana Andi diberikan tugas untuk melawan Dark Lord yang memengaruhi makhluk makhluk di Kerajaan Pletoria seperti Goblin, Elves, dan lainnya. Namun setelah beberapa perlawanan, Andi bertemu dengan makhluk aneh yang berbeda dari makhluk lain. Andi kewalahan dan hampir mati, namun tiba tiba seseorang datang dengan menggunakan device Project T yang serupa dengan yang dibawa Andi, namun terlihat dicoreng seperti Akatsuki di Naruto yang dapat melawan makhluk aneh tersebut. Disini Andi bertemu dengan Shifter, sekelompok orang yang memiliki device Project T dan berusaha mengungkap misteri dari Project T, Creation (Makhluk yang dibuat oleh Creator), dan Creator (Boss yang menginvasi setiap Scene Dunia Paradigm). Andi bertemu dengan Alia teman yang ternyata satu kuliah, Amir teman satu kosan, mantan saintis Project T Dr.Felix, dan Ketua Shifter Dr.Xenon yang memiliki dendam kesumat terhadap The Ultimate Creator, Ketua Terbesar dari Project T. Dan Scene Medieval ini adalah salah satu dari 7 Scene yang harus dihadapi untuk memasuki Scene dimana The Ultimate Creator berada.
@@ -52,6 +53,7 @@ Setelah berkenalan dengan anggota Shifter, Andi dapat kembali ke dunia aslinya d
 Pada User Story, terdapat banyak user yang memiliki fungsinya masing-masing, mulai dari Player, NPC teman, NPC biasa, NPC musuh, Creator, Beast, Inventory, Minigame, Extra, dan the Ultimate Creator.
 
 1. Player
+   Player adalah entity utama yang akan digerakkan oleh pemain. Player memiliki 50 peran dalam game ini sebagai berikut
 
 No | Kita Dapat | Sehingga | Prioritas
 --- | --- | --- | ---
@@ -71,7 +73,7 @@ No | Kita Dapat | Sehingga | Prioritas
 14 | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
 15 | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
 16 | Mengupgrade kualitas item di dunia Paradigm | Menaikkan level item agar lebih mudah melawan musuh | ⭐⭐⭐⭐
-17 | Berburu di dunia Paradigm | Mendapatkan EXP dan daging untuk dimasak | ⭐⭐⭐⭐
+17 | Berburu Beast di dunia Paradigm | Mendapatkan EXP dan daging untuk dimasak | ⭐⭐⭐⭐
 18 | Memancing di dunia Paradigm | Mendapatkan EXP dan ikan untuk dimasak | ⭐⭐⭐⭐
 19 | Mengambil tanaman di dunia Paradigm | Mendapatkan tanaman sebagai obat dan buff | ⭐⭐⭐⭐
 20 | Memecahkan puzzle di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
@@ -79,6 +81,9 @@ No | Kita Dapat | Sehingga | Prioritas
 22 | Membuka Crafting di dunia Paradigm | Membuat barang dan mengupgrade item | ⭐⭐⭐⭐
 23 | Gacha item di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
 24 | Pindah Scene di dunia Paradigm | Menjelajahi dunia baru dengan environment yang unik | ⭐⭐⭐⭐
+25 | Berinteraksi dengan NPC Teman | Menambah persahabatan antar NPC Teman | ⭐⭐⭐
+26 | Berinteraksi dengan NPC biasa | Mengetahui kondisi yang terjadi dan sejarah dibalik setiap Scene, Menambah persahabatan antar NPC biasa | ⭐⭐⭐
+
 
 2. NPC Teman
 
@@ -157,12 +162,12 @@ Framework = .NET Platform
 
 https://youtu.be/HzC67H-aHIw?si=18Cmy-rppTi5vUnr
 
-01:36 Demonstrasi Game
-06:03 Source Code #1 (Audio Manager)
-10:07 Source Code #2 (Cutscene Time)
-11:17 Source Code #3 (Loading Screen)
-15:50 Source Code #4 dan #5 (Change Scene)
-18:24 Source Code #6 dan #7 (Character Movement)
+1. 01:36 Demonstrasi Game
+2. 06:03 Source Code #1 (Audio Manager)
+3. 10:07 Source Code #2 (Cutscene Time)
+4. 11:17 Source Code #3 (Loading Screen)
+5. 15:50 Source Code #4 dan #5 (Change Scene)
+6. 18:24 Source Code #6 dan #7 (Character Movement)
 
 ## 8. Bagaimana mesin komputasi dan sistem operasi berperan dalam produk teknologi informasimu ?
 
