@@ -50,10 +50,10 @@ Setelah berkenalan dengan anggota Shifter, Andi dapat kembali ke dunia aslinya d
 
 ## 2. User Story
 
-Pada User Story, terdapat banyak user yang memiliki fungsinya masing-masing, mulai dari Player, NPC teman, NPC biasa, NPC musuh, Creator, Beast, Inventory, Minigame, Extra, dan the Ultimate Creator.
+Pada User Story, terdapat banyak entity yang memiliki fungsinya masing-masing, mulai dari Player, NPC teman, NPC biasa, NPC musuh, Creator, Beast, Inventory, Minigame, Extra, dan the Ultimate Creator.
 
 1. Player
-   Player adalah entity utama yang akan digerakkan oleh pemain. Player memiliki 50 peran dalam game ini sebagai berikut
+   Player adalah entity utama yang akan digerakkan oleh pemain. Player memiliki 26 peran dalam game ini sebagai berikut
 
 No | Kita Dapat | Sehingga | Prioritas
 --- | --- | --- | ---
@@ -86,33 +86,13 @@ No | Kita Dapat | Sehingga | Prioritas
 
 
 2. NPC Teman
+   NPC Teman adalah NPC yang akan menjadi rekan bertarung kalian dalam melawan NPC Musuh dan menyelesaikan berbagai misi. NPC Teman memiliki keunikan dan jurus masing-masing yang memiliki keunggulan masing-masing dalam melawan musuh dan mengeksplorasi Dunia Nyata dan Dunia Paradigm. NPC Teman memiliki 20 peran sebagai berikut.
 
 No | Kita Dapat | Sehingga | Prioritas
 --- | --- | --- | ---
-1 | Menggerakan Karakter | Dapat bergerak | ⭐⭐⭐⭐⭐
-2 | Mengalahkan Musuh | Mendapatkan Item dan Exp | ⭐⭐⭐⭐⭐
-3 | Menggunakan Jurus | Puas melihat jurus tersebut | ⭐⭐⭐⭐⭐
-4 | Melawan musuh secara real time | Fokus pada keseruan gameplay | ⭐⭐⭐⭐⭐
-5 | Melawan musuh secara turn base | Menggunakan strategi untuk melawan musuh | ⭐⭐⭐⭐⭐
-6 | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐⭐
-7 | Menamatkan Story Mode | Menikmati story yang menarik | ⭐⭐⭐⭐⭐
-8 | Mendapatkan beragam ending | Mendapatkan kepuasan dan ending atas pilihan user | ⭐⭐⭐⭐⭐
-9 | Menamatkan Main Quest dan Side Quest | Mendapatkan sisi lain story yang unik dengan easter egg di dalamnya | ⭐⭐⭐⭐⭐
-10 | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐⭐
-11 | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐⭐
-12 | Main multiplayer offline di 2 dunia | Merasakan keseruan bersama teman dan menambah persahabatan sekitar | ⭐⭐⭐⭐⭐
-13 | Main multiplayer online dan minigame khusus | Merasakan keseruan bersama teman dan menambah relasi di internasional | ⭐⭐⭐⭐⭐
-14 | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
-15 | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
-16 | Mengupgrade kualitas item di dunia Paradigm | Menaikkan level item agar lebih mudah melawan musuh | ⭐⭐⭐⭐
-17 | Berburu di dunia Paradigm | Mendapatkan EXP dan daging untuk dimasak | ⭐⭐⭐⭐
-18 | Memancing di dunia Paradigm | Mendapatkan EXP dan ikan untuk dimasak | ⭐⭐⭐⭐
-19 | Mengambil tanaman di dunia Paradigm | Mendapatkan tanaman sebagai obat dan buff | ⭐⭐⭐⭐
-20 | Memecahkan puzzle di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
-21 | Membuka Inventory di dunia Paradigm | Mengatur item yang telah didapatkan | ⭐⭐⭐⭐
-22 | Membuka Crafting di dunia Paradigm | Membuat barang dan mengupgrade item | ⭐⭐⭐⭐
-23 | Gacha item di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
-24 | Pindah Scene di dunia Paradigm | Menjelajahi dunia baru dengan environment yang unik | ⭐⭐⭐⭐
+1 | Bergerak di Dunia Paradigm | Menjelajahi berbagai medan lapangan | ⭐⭐⭐⭐⭐
+2 | Berteman dengan Player jika interaksi baik | Menjelajahi berbagai medan lapangan | ⭐⭐⭐⭐⭐
+2 | Bertengkar dengan Player jika interaksi buruk | Menjelajahi berbagai medan lapangan | ⭐⭐⭐⭐⭐
 
 
 ## 3. Struktur Data
