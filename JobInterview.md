@@ -71,15 +71,44 @@ No | Kita Dapat | Sehingga | Prioritas
 14 | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
 15 | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
 16 | Mengupgrade kualitas item di dunia Paradigm | Menaikkan level item agar lebih mudah melawan musuh | ⭐⭐⭐⭐
-17 | Berburu di dunia Paradigm | Mendapatkan daging untuk dimasak | ⭐⭐⭐⭐
-18 | Memancing di dunia Paradigm | Mendapatkan ikan untuk dimasak | ⭐⭐⭐⭐
+17 | Berburu di dunia Paradigm | Mendapatkan EXP dan daging untuk dimasak | ⭐⭐⭐⭐
+18 | Memancing di dunia Paradigm | Mendapatkan EXP dan ikan untuk dimasak | ⭐⭐⭐⭐
 19 | Mengambil tanaman di dunia Paradigm | Mendapatkan tanaman sebagai obat dan buff | ⭐⭐⭐⭐
 20 | Memecahkan puzzle di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
-21 | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐
-22 | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐
-23 | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐
+21 | Membuka Inventory di dunia Paradigm | Mengatur item yang telah didapatkan | ⭐⭐⭐⭐
+22 | Membuka Crafting di dunia Paradigm | Membuat barang dan mengupgrade item | ⭐⭐⭐⭐
+23 | Gacha item di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
 24 | Pindah Scene di dunia Paradigm | Menjelajahi dunia baru dengan environment yang unik | ⭐⭐⭐⭐
-25 | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+
+2. NPC Teman
+
+No | Kita Dapat | Sehingga | Prioritas
+--- | --- | --- | ---
+1 | Menggerakan Karakter | Dapat bergerak | ⭐⭐⭐⭐⭐
+2 | Mengalahkan Musuh | Mendapatkan Item dan Exp | ⭐⭐⭐⭐⭐
+3 | Menggunakan Jurus | Puas melihat jurus tersebut | ⭐⭐⭐⭐⭐
+4 | Melawan musuh secara real time | Fokus pada keseruan gameplay | ⭐⭐⭐⭐⭐
+5 | Melawan musuh secara turn base | Menggunakan strategi untuk melawan musuh | ⭐⭐⭐⭐⭐
+6 | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐⭐
+7 | Menamatkan Story Mode | Menikmati story yang menarik | ⭐⭐⭐⭐⭐
+8 | Mendapatkan beragam ending | Mendapatkan kepuasan dan ending atas pilihan user | ⭐⭐⭐⭐⭐
+9 | Menamatkan Main Quest dan Side Quest | Mendapatkan sisi lain story yang unik dengan easter egg di dalamnya | ⭐⭐⭐⭐⭐
+10 | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐⭐
+11 | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐⭐
+12 | Main multiplayer offline di 2 dunia | Merasakan keseruan bersama teman dan menambah persahabatan sekitar | ⭐⭐⭐⭐⭐
+13 | Main multiplayer online dan minigame khusus | Merasakan keseruan bersama teman dan menambah relasi di internasional | ⭐⭐⭐⭐⭐
+14 | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+15 | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+16 | Mengupgrade kualitas item di dunia Paradigm | Menaikkan level item agar lebih mudah melawan musuh | ⭐⭐⭐⭐
+17 | Berburu di dunia Paradigm | Mendapatkan EXP dan daging untuk dimasak | ⭐⭐⭐⭐
+18 | Memancing di dunia Paradigm | Mendapatkan EXP dan ikan untuk dimasak | ⭐⭐⭐⭐
+19 | Mengambil tanaman di dunia Paradigm | Mendapatkan tanaman sebagai obat dan buff | ⭐⭐⭐⭐
+20 | Memecahkan puzzle di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
+21 | Membuka Inventory di dunia Paradigm | Mengatur item yang telah didapatkan | ⭐⭐⭐⭐
+22 | Membuka Crafting di dunia Paradigm | Membuat barang dan mengupgrade item | ⭐⭐⭐⭐
+23 | Gacha item di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
+24 | Pindah Scene di dunia Paradigm | Menjelajahi dunia baru dengan environment yang unik | ⭐⭐⭐⭐
+
 
 ## 3. Struktur Data
 
@@ -104,11 +133,23 @@ Teknologi Informasi yang digunakan untuk membuat game Paradigm Shift adalah Unit
 4. PixelLab digunakan untuk menggunakan desain background, karakter, dan lainnya dalam bentuk gambar dan desain grafis.
 5. BandLab digunakan untuk membuat musik sendiri agar tidak terkena copyright claim ketika mempublish game ke platform publik.
 
+Library = -
+
+Framework = .NET Platform
 
 ## 6. Desain User Experience dan User Interface
 
-Bisa load image 
-![Contoh](https://fastly.picsum.photos/id/318/536/354.jpg?hmac=Ixy-wle80nudIR_cmnF1iY2y6rMUH7_9sk-BP1fTpM8)
+![Screenshot (16)](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/4ed1b4de-73d0-4e36-a48f-5714b97d4f19)
+
+![Screenshot (17)](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/a9e302f0-338b-4d10-bd9f-ad089e5ab481)
+
+![Screenshot (21)](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/3722aa71-79a3-437f-a977-4882763463c3)
+
+![Screenshot (18)](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/81e1faa3-5873-4679-bcc2-6a764beeee71)
+
+![Screenshot (19)](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/e615e564-4c8a-410b-93c6-e5c8637de049)
+
+![Screenshot (20)](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/2f60d553-b1a3-4996-af0c-1301ba618192)
 
 ## 7. Demonstrasi Video
 
