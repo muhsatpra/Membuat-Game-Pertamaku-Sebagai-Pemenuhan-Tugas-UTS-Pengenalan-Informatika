@@ -397,6 +397,8 @@ Library =
 4. AudioClip
 5. UnityEngine.SceneManagement
 6. UnityEngine.UI
+7. LoadLevel
+8. LoadAsynchronously
 
 Framework = .NET Platform
 
