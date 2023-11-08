@@ -236,8 +236,135 @@ Dari User Story yang telah dibahas, Struktur Data menampung konten tersebut dan 
 
 ```mermaid
 erDiagram
-    RUJAK ||--o{ SAYUR : tersusun
-    PEMBELI ||--|{ RUJAK : beli
+  PLAYER { 
+    int HP "Heatlh Point"
+    int SP "Skill Point"
+    int Energy
+    int EXP
+    string Skill
+    string Inventory "Untuk Menaruh Item"
+    string Item "Senjata, Potion, Makanan, Minuman, Buku, Kunci, Uang, dll"
+  }
+  PLAYER ||--|| MainMenu : masuk
+  MainMenu ||--|| MainMenu : menampilkan
+  MainMenu ||--|| MainMenu : merubah
+  MainMenu ||--|| MainMenu : menghapus
+  MainMenu ||--|| MainMenu : masuk
+  MainMenu {
+    string NewGame "Continue Game, Start New Game"
+    string LoadGame
+    string Options "Gameplay, Graphic, Display, Audio, Language, Accessibility"
+    string Minigames "Soccer, Tech Surf, Chess, Pinball, dll "
+    string Extras "Cutscene, Artwork, Cheats, Behind The Scene, Credit"
+    string Quit
+  }
+  MainMenu ||--|| DuniaNyata : memainkan
+  DuniaNyata ||--|| DuniaNyata : menjelajahi
+  DuniaNyata {
+    int Class "Masjid, Gor, Perpustakaan, Kantin, WC"
+    int Kos "Markas, WC"
+  }
+  MainMenu ||--|| DuniaParadigm : memainkan
+  DuniaParadigm ||--|| DuniaParadigm : menjelajahi
+  DuniaParadigm {
+    int Scene1 "Medieval"
+    int Scene2 "???"
+    int Scene3 "???"
+    int Scene4 "???"
+    int Scene5 "???"
+    int Scene6 "???"
+    int LastScene "Melawan The Ultimate Creator"
+  }
+  DuniaParadigm ||--o{ NPCTeman : ditinggali
+  DuniaNyata ||--o{ NPCTeman : ditinggali
+  PLAYER ||--o{ NPCTeman : berinteraksi
+  NPCTeman {
+    int HP "Heatlh Point"
+    int SP "Skill Point"
+    int Energy
+    int EXP
+    string Skill
+    string Inventory "Untuk Menaruh Item"
+    string Item "Senjata, Potion, Makanan, Minuman, Buku, Kunci, dll"
+  }
+  DuniaParadigm ||--o{ NPCBiasa : ditinggali
+  DuniaNyata ||--o{ NPCBiasa : ditinggali
+  PLAYER ||--o{ NPCBiasa : berinteraksi
+  NPCBiasa {
+    int HP "Heatlh Point"
+    int SP "Skill Point"
+    int Energy
+    int EXP
+    string Item "Senjata, Potion, Makanan, Minuman, Buku, Kunci, dll"
+  }
+  DuniaParadigm ||--|| TheUltimateCreator : ditinggali
+  DuniaNyata ||--|| TheUltimateCreator : ditinggali
+  PLAYER ||--|| TheUltimateCreator : melawan
+  TheUltimateCreator {
+    int HP "Heatlh Point"
+    int SP "Skill Point"
+    int Energy
+    int EXP
+    string Skill
+    string Ultimate
+    string Item "Senjata, Potion, Makanan, Minuman, Buku, Kunci, dll"
+  }
+  TheUltimateCreator ||--o{ Creator : memimpin
+  Creator {
+    int HP "Heatlh Point"
+    int SP "Skill Point"
+    int Energy
+    int EXP
+    string Skill
+    string Inventory "Untuk Menaruh Item"
+    string Item "Senjata, Potion, Makanan, Minuman, Buku, Kunci, dll"
+  }
+  Creator ||--o{ NPCMusuh : memimpin
+  NPCMusuh {
+    int HP "Heatlh Point"
+    int SP "Skill Point"
+    int Energy
+    int EXP
+    string Skill
+    string Inventory "Untuk Menaruh Item"
+    string Item "Senjata, Potion, Makanan, Minuman, Buku, Kunci, dll"
+  }
+  DuniaParadigm ||--o{ Beast : ditinggali
+  PLAYER ||--o{ Beast : memburu
+  Beast {
+    int HP "Heatlh Point"
+    int SP "Skill Point"
+    int Energy
+    int EXP
+    string Item "Senjata, Potion, Makanan, Minuman, Buku, Kunci, dll"
+  }
+  Beast o{--o{ Item : memiliki
+  NPCBiasa o{--o{ Item : memiliki
+  NPCTeman o{--o{ Item : memiliki
+  NPCMusuh o{--o{ Item : memiliki
+  Creator o{--o{ Item : memiliki
+  TheUltimateCreator o{--o{ Item : memiliki
+  PLAYER ||--o{ Item : mengumpulkan
+  Item {
+    string Potion
+    string Senjata
+    string Makanan
+    string Minuman
+    string Buku
+    string Kunci
+    int Uang
+  }
+  Beast o{--o{ EXP : memiliki
+  NPCBiasa o{--o{ EXP : memiliki
+  NPCTeman o{--o{ EXP : memiliki
+  NPCMusuh o{--o{ EXP : memiliki
+  Creator o{--o{ EXP : memiliki
+  TheUltimateCreator o{--o{ EXP : memiliki
+  PLAYER ||--o{ EXP : mengumpulkan
+  EXP {
+    int stats
+    int levels
+  }
 ```
 
 ## 4. Arsitektur Sistem
