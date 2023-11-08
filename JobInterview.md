@@ -50,54 +50,100 @@ Setelah berkenalan dengan anggota Shifter, Andi dapat kembali ke dunia aslinya d
 
 ## 2. User Story
 
-Pada User Story, terdapat banyak entity yang memiliki fungsinya masing-masing, mulai dari Player, NPC teman, NPC biasa, NPC musuh, Creator, Beast, Inventory, Minigame, Extra, dan the Ultimate Creator.
+Pada User Story, terdapat banyak entity yang memiliki fungsinya masing-masing, mulai dari Player, NPC teman, NPC biasa, NPC musuh, Class, Creator, Beast, Gold, Item, Inventory, Minigame, Extra, dan the Ultimate Creator.
 
 1. Player
-   Player adalah entity utama yang akan digerakkan oleh pemain. Player memiliki 26 peran dalam game ini sebagai berikut
+   Player adalah entity utama yang akan digerakkan oleh pemain. Player memiliki 32 peran unik  dalam game ini sebagai berikut
 
 No | Kita Dapat | Sehingga | Prioritas
 --- | --- | --- | ---
-1 | Menggerakan Karakter | Dapat bergerak | ⭐⭐⭐⭐⭐
-2 | Mengalahkan Musuh | Mendapatkan Item dan Exp | ⭐⭐⭐⭐⭐
-3 | Menggunakan Jurus | Puas melihat jurus tersebut | ⭐⭐⭐⭐⭐
-4 | Melawan musuh secara real time | Fokus pada keseruan gameplay | ⭐⭐⭐⭐⭐
-5 | Melawan musuh secara turn base | Menggunakan strategi untuk melawan musuh | ⭐⭐⭐⭐⭐
-6 | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐⭐
-7 | Menamatkan Story Mode | Menikmati story yang menarik | ⭐⭐⭐⭐⭐
-8 | Mendapatkan beragam ending | Mendapatkan kepuasan dan ending atas pilihan user | ⭐⭐⭐⭐⭐
-9 | Menamatkan Main Quest dan Side Quest | Mendapatkan sisi lain story yang unik dengan easter egg di dalamnya | ⭐⭐⭐⭐⭐
-10 | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐⭐
-11 | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐⭐
-12 | Main multiplayer offline di 2 dunia | Merasakan keseruan bersama teman dan menambah persahabatan sekitar | ⭐⭐⭐⭐⭐
-13 | Main multiplayer online dan minigame khusus | Merasakan keseruan bersama teman dan menambah relasi di internasional | ⭐⭐⭐⭐⭐
-14 | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
-15 | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
-16 | Mengupgrade kualitas item di dunia Paradigm | Menaikkan level item agar lebih mudah melawan musuh | ⭐⭐⭐⭐
-17 | Berburu Beast di dunia Paradigm | Mendapatkan EXP dan daging untuk dimasak | ⭐⭐⭐⭐
-18 | Memancing di dunia Paradigm | Mendapatkan EXP dan ikan untuk dimasak | ⭐⭐⭐⭐
-19 | Mengambil tanaman di dunia Paradigm | Mendapatkan tanaman sebagai obat dan buff | ⭐⭐⭐⭐
-20 | Memecahkan puzzle di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
-21 | Membuka Inventory di dunia Paradigm | Mengatur item yang telah didapatkan | ⭐⭐⭐⭐
-22 | Membuka Crafting di dunia Paradigm | Membuat barang dan mengupgrade item | ⭐⭐⭐⭐
-23 | Gacha item di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
-24 | Pindah Scene di dunia Paradigm | Menjelajahi dunia baru dengan environment yang unik | ⭐⭐⭐⭐
-25 | Berinteraksi dengan NPC Teman | Menambah persahabatan antar NPC Teman | ⭐⭐⭐
-26 | Berinteraksi dengan NPC biasa | Mengetahui kondisi yang terjadi dan sejarah dibalik setiap Scene, Menambah persahabatan antar NPC biasa | ⭐⭐⭐
-
+1 | Memulai permainan | Game dapat dimainkan | ⭐⭐⭐⭐⭐
+2 | Menggerakan Karakter | Dapat bergerak | ⭐⭐⭐⭐⭐
+3 | Mendesain karakter | Pemain mendapatkan kepuasan dan keunikan | ⭐⭐⭐⭐⭐
+4 | Mengalahkan Musuh | Mendapatkan Item dan Exp | ⭐⭐⭐⭐⭐
+5 | Menggunakan Skill | Puas melihat skill tersebut | ⭐⭐⭐⭐⭐
+6 | Melawan musuh secara real time | Fokus pada keseruan gameplay | ⭐⭐⭐⭐⭐
+7 | Melawan musuh secara turn base | Menggunakan strategi untuk melawan musuh | ⭐⭐⭐⭐⭐
+8 | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐⭐
+9 | Menamatkan Story Mode | Menikmati story yang menarik | ⭐⭐⭐⭐⭐
+10 | Mendapatkan beragam ending | Mendapatkan kepuasan dan ending atas pilihan user | ⭐⭐⭐⭐⭐
+11 | Menamatkan Main Quest dan Side Quest | Mendapatkan sisi lain story yang unik dengan easter egg di dalamnya | ⭐⭐⭐⭐⭐
+12 | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐⭐
+13 | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐⭐
+14 | Main multiplayer offline di 2 dunia | Merasakan keseruan bersama teman dan menambah persahabatan sekitar | ⭐⭐⭐⭐⭐
+15 | Main multiplayer online dan minigame khusus | Merasakan keseruan bersama teman dan menambah relasi di internasional | ⭐⭐⭐⭐⭐
+16 | Memasak di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+17 | Membeli item di dunia Paradigm | Mendapatkan makanan yang dapat menambah darah dan menambah buff/debuff khusus | ⭐⭐⭐⭐
+18 | Mengupgrade kualitas item di dunia Paradigm | Menaikkan level item agar lebih mudah melawan musuh | ⭐⭐⭐⭐
+19 | Berburu Beast di dunia Paradigm | Mendapatkan EXP dan daging untuk dimasak | ⭐⭐⭐⭐
+20 | Memancing di dunia Paradigm | Mendapatkan EXP dan ikan untuk dimasak | ⭐⭐⭐⭐
+21 | Mengambil tanaman di dunia Paradigm | Mendapatkan tanaman sebagai obat dan buff | ⭐⭐⭐⭐
+22 | Memecahkan puzzle di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
+23 | Membuka Inventory di dunia Paradigm | Mengatur item yang telah didapatkan | ⭐⭐⭐⭐
+24 | Membuka Crafting di dunia Paradigm | Membuat barang dan mengupgrade item | ⭐⭐⭐⭐
+25 | Gacha item di dunia Paradigm | Mendapatkan item langka | ⭐⭐⭐⭐
+26 | Pindah Scene di dunia Paradigm | Menjelajahi dunia baru dengan environment yang unik | ⭐⭐⭐⭐
+27 | Respawn di Checkpoint | Player tidak perlu mengulang misi diawal permainan | ⭐⭐⭐⭐
+28 | Revive NPC Teman | Player tidak kehilangan NPC Teman yang berguna untuk melawan musuh | ⭐⭐⭐⭐
+29 | Berinteraksi dengan NPC Teman | Menambah persahabatan antar NPC Teman | ⭐⭐⭐
+30 | Berinteraksi dengan NPC biasa | Mengetahui kondisi yang terjadi dan sejarah dibalik setiap Scene, Menambah persahabatan antar NPC biasa | ⭐⭐⭐
+31 | Menaruh Item di Inventory NPC Teman | Player dapat membawa lebih banyak barang | ⭐⭐⭐
+32 | Berinteraksi dengan Random Event | Player dapat berinteraksi atau membiarkan Random Event berjalan dan akan mendapat konsekuensinya | ⭐⭐⭐
 
 2. NPC Teman
-   NPC Teman adalah NPC yang akan menjadi rekan bertarung kalian dalam melawan NPC Musuh dan menyelesaikan berbagai misi. NPC Teman memiliki keunikan dan jurus masing-masing yang memiliki keunggulan masing-masing dalam melawan musuh dan mengeksplorasi Dunia Nyata dan Dunia Paradigm. NPC Teman memiliki 20 peran sebagai berikut.
+   NPC Teman adalah NPC yang akan menjadi rekan bertarung kalian dalam melawan NPC Musuh dan menyelesaikan berbagai misi. NPC Teman memiliki keunikan dan jurus masing-masing yang memiliki keunggulan masing-masing dalam melawan musuh dan mengeksplorasi Dunia Nyata dan Dunia Paradigm. NPC Teman akan sering memberi quest dan quest unik jika pertemanan dengan Player besar. NPC Teman memiliki 11 peran unik sebagai berikut.
 
 No | Kita Dapat | Sehingga | Prioritas
 --- | --- | --- | ---
 1 | Bergerak di Dunia Paradigm | Menjelajahi berbagai medan lapangan | ⭐⭐⭐⭐⭐
-2 | Berteman dengan Player jika interaksi baik | Menjelajahi berbagai medan lapangan | ⭐⭐⭐⭐⭐
-2 | Bertengkar dengan Player jika interaksi buruk | Menjelajahi berbagai medan lapangan | ⭐⭐⭐⭐⭐
+2 | Mengikuti Player jika disuruh | Player tidak merasa sendiri | ⭐⭐⭐⭐⭐
+3 | Menyerang NPC musuh di mode Real Time | Player dapat menginisiasi penyerangan | ⭐⭐⭐⭐⭐
+4 | Memberi Quest pada Player | Player dapat menjalankan quest dan mendapatkan item | ⭐⭐⭐⭐⭐
+5 | Berteman dengan Player jika interaksi baik | Player merasa dekat dengan NPC tersebut | ⭐⭐⭐⭐⭐
+6 | Bertengkar dengan Player jika interaksi buruk | Player yang iseng mendapatkan kepuasan ngetroll NPC teman | ⭐⭐⭐⭐⭐
+7 | Memberi item kepada player | Player mendapatkan buff atau health untuk mengalahkan musuh | ⭐⭐⭐⭐⭐
+8 | Menaruh item player di inventory NPC tersebut | Player dapat membawa lebih banyak item | ⭐⭐⭐⭐⭐
+9 | Menunjuk jalan kepada player | Player tidak tersesat ketika menjalankan misi | ⭐⭐⭐⭐
+10 | Memberi tahu cara kerja puzzle kepada player | Player dapat menyelesaikan puzzle | ⭐⭐⭐⭐
+11 | Mengambil item di sekitar Player | Player tidak perlu manual mengambil player | ⭐⭐⭐⭐
 
+3. NPC Biasa
+   NPC Biasa adalah NPC yang akan menetap atau berkeliling di Dunia Nyata dan Dunia Paradigm. NPC biasa memiliki berbagai jenis karakter dengan keunikan dan jurus masing-masing tergantung dari dunia dan scene yang ditinggali. NPC biasa di Dunia Paradigm kebanyakan seperti villager dan traveller tidak akan menyerang , namun beberapa NPC akan menyerang jika player bertindak kasar, terutama Guard akan berusaha menangkapmu dan memenjarakanmu jika negosiasi tidak berjalan dengan baik. Player dapat membeli item pada NPC Biasa untuk meningkatkan kekuatan Player. Beberapa NPC akan menawarkan quest kepada player dan akan ada sistem random event setiap Player menjelajahi Dunia Nyata dan Dunia Paradigm. NPC biasa memiliki 6 peran unik sebagai berikut.
+
+No | Kita Dapat | Sehingga | Prioritas
+--- | --- | --- | ---
+1 | Bergerak di Dunia Paradigm | Menjelajahi berbagai medan lapangan | ⭐⭐⭐⭐⭐
+2 | Menyerang Player jika mengancam | Player dapat kalah dari Game | ⭐⭐⭐⭐⭐
+3 | Negosiasi dengan Player | Jika player menjawab dengan benar maka player akan mendapat diskon item | ⭐⭐⭐⭐⭐
+4 | Berinteraksi dengan Player | Mengetahui kondisi yang terjadi dan sejarah dibalik setiap Scene, Menambah persahabatan dengan player | ⭐⭐⭐⭐⭐
+5 | Menggunakan Skill dalam bertarung | Player harus menghindari skill yang dapat mengakhiri permainan | ⭐⭐⭐⭐⭐
+6 | Memberi Quest pada Player | Player dapat menjalankan quest dan mendapatkan item | ⭐⭐⭐⭐⭐
+
+4. NPC Musuh
+   NPC Teman adalah NPC yang akan menjadi lawan kalian selama menjalani Game ini. NPC musuh memiliki berbagai jenis karakter dengan keunikan dan jurus masing-masing di Dunia Paradigm seperti Fighter yang harus dipelajari polanya agar dapat melawan musuh tersebut. NPC musuh memiliki 6 peran unik sebagai berikut.
+
+No | Kita Dapat | Sehingga | Prioritas
+--- | --- | --- | ---
+1 | Bergerak di Dunia Paradigm | Menjelajahi berbagai medan lapangan | ⭐⭐⭐⭐⭐
+2 | Menyerang Player dan NPC teman | Player dapat kalah dari Game | ⭐⭐⭐⭐⭐
+3 | Negosiasi dengan Player | Jika player menjawab dengan benar maka player akan mendapat buff and vice versa | ⭐⭐⭐⭐⭐
+4 | Menaruh jebakan | Player yang tidak hati-hati akan mendapatkan debuff | ⭐⭐⭐⭐⭐
+5 | Menggunakan Skill dalam bertarung | Player harus menghindari skill yang dapat mengakhiri permainan | ⭐⭐⭐⭐⭐
+6 | Menjaga markas Project T | Player tidak dapat mengakses lootingan item langka yang ada disana | ⭐⭐⭐⭐
+
+5. Class
+   Class adalah objek yang akan diikuti Player di Dunia Nyata. Sebagai pengenalan, Player memasuki jurusan Informatika di Universitas Teknologi, dimana player harus menjalankan Class setiap hari sesuai jadwal Mata Kuliah untuk mendapatkan buff unik dan menaikkan stats personality. Class memiliki 1 peran unik sebagai berikut
+
+No | Kita Dapat | Sehingga | Prioritas
+--- | --- | --- | ---
+1 | Memberi quiz pada Player | Player mendapat wawasan dan menambah stats personality | ⭐⭐⭐⭐⭐
+2 | Menyediakan Perpustakaan untuk Player | Player mendapat wawasan dan menambah stats personality | ⭐⭐⭐⭐⭐
+3 | Menyediakan Gor Olahraga untuk Player | Player mendapat buff dan menambah stats personality | ⭐⭐⭐⭐⭐
+4 | Menyediakan Masjid untuk Player | Player mendapat buff dan menambah stats personality | ⭐⭐⭐⭐⭐
+5 | Menyediakan Kantin untuk Player | Player dapat membeli item untuk mendapat buff | ⭐⭐⭐⭐⭐
+6 | Menjaga markas Project T | Player mendapat buff dan menambah stats personality | ⭐⭐⭐⭐
 
 ## 3. Struktur Data
-
-Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [https://mermaid.js.org/syntax/entityRelationshipDiagram.html](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) 
 
 ```mermaid
 erDiagram
@@ -107,7 +153,17 @@ erDiagram
 
 ## 4. Arsitektur Sistem
 
-Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/syntax/flowchart.html](https://mermaid.js.org/syntax/flowchart.html)
+```mermaid
+flowchart BT 
+  subgraph cloud
+    B[Web Server: JavaScript ] <--> C[Aplikasi Web Backend: WebGL] 
+    C <--> D[Database: MySQL] 
+  end
+  A{Aplikasi Game PC : C#} <--> B 
+  E[Aplikasi Game Android/IoS : C++ dan Java] <--> B 
+```
+
+Pada arsitektur sistem Game akan difokuskan pada PC, walau kedepannya akan diusahakan untuk dipindahkan ke platform seperti Android, IoS, dan Web untuk menjangkau banyak jenis player. Untuk web akan dibuat seperti hosting untuk mendownload Game dari web tersebut, dengan beberapa perkenalan karakter, guide singkat untuk memperkenalkan player kepada Game seperti web Genshin https://genshin.hoyoverse.com/ . Kebanyakan Game Unity menggunakan database MySQL untuk menyimpan data dan membuat fitur online dalam game, walau kedepannya akan ditinjau lebih lanjut untuk game yang akan dibuat. Game utama akan menggunakan bahasa C# di PC, untuk kedepannya bila akan dideploy di Android/IoS maka akan menggunakan bahasa Java dan C++.
 
 ## 5. Teknologi, Library, dan Framework
 
@@ -135,6 +191,8 @@ Framework = .NET Platform
 ![Screenshot (19)](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/e615e564-4c8a-410b-93c6-e5c8637de049)
 
 ![Screenshot (20)](https://github.com/muhsatpra/Membuat-Game-Pertamaku-Sebagai-Pemenuhan-Tugas-UTS-Pengenalan-Informatika/assets/144855998/2f60d553-b1a3-4996-af0c-1301ba618192)
+
+Untuk UI dan UX kedepannya akan dibuat simpel agar player tidak terlalu pusing melihat banyak tombol dan dapat fokus ke gameplay. Untuk Background Gambar di Main Menu dan Loading Screen untuk sementara menggunakan gambar dari user lain, kedepannya akan diubah juga agar menghindari Copyright dan Lawsuit. UI Main Menu akan ditambah tombol lain, seperti mode online, minigame, Free Mode, dan lainnya. Untuk UX player saat bermain akan ditambah minimap, Health Bar, Skill Bar, Energy Bar, dan lainnya.
 
 ## 7. Demonstrasi Video
 
