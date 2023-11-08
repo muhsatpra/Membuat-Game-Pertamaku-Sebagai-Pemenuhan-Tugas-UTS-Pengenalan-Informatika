@@ -50,10 +50,11 @@ Setelah berkenalan dengan anggota Shifter, Andi dapat kembali ke dunia aslinya d
 
 ## 2. User Story
 
-Pada User Story, terdapat banyak entity yang memiliki fungsinya masing-masing, mulai dari Player, NPC teman, NPC biasa, NPC musuh, Class, Creator, Beast, Gold, Item, Inventory, Minigame, Extra, dan the Ultimate Creator.
+Pada User Story, terdapat banyak entity yang memiliki fungsinya masing-masing, mulai dari Player, NPC teman, NPC biasa, NPC musuh, Class, Creator, Beast, Item, Exp, dan Main Menu
 
 1. Player
-   Player adalah entity utama yang akan digerakkan oleh pemain. Player memiliki 32 peran unik  dalam game ini sebagai berikut
+
+Player adalah entity utama yang akan digerakkan oleh pemain. Player memiliki 36 peran unik  dalam game ini sebagai berikut
 
 No | Kita Dapat | Sehingga | Prioritas
 --- | --- | --- | ---
@@ -64,9 +65,9 @@ No | Kita Dapat | Sehingga | Prioritas
 5 | Menggunakan Skill | Puas melihat skill tersebut | ⭐⭐⭐⭐⭐
 6 | Melawan musuh secara real time | Fokus pada keseruan gameplay | ⭐⭐⭐⭐⭐
 7 | Melawan musuh secara turn base | Menggunakan strategi untuk melawan musuh | ⭐⭐⭐⭐⭐
-8 | Melawan Boss Unik | Mendapatkan Item langka dan Exp yang banyak | ⭐⭐⭐⭐⭐
+8 | Melawan Creator/Boss Unik | Mendapatkan Item langka dan Exp yang banyak, dan dapat pindah ke Scene lain | ⭐⭐⭐⭐⭐
 9 | Menamatkan Story Mode | Menikmati story yang menarik | ⭐⭐⭐⭐⭐
-10 | Mendapatkan beragam ending | Mendapatkan kepuasan dan ending atas pilihan user | ⭐⭐⭐⭐⭐
+10 | Melawan The Ultimate Creator | Mendapatkan kepuasan dan ending sesuai pilihan Player | ⭐⭐⭐⭐⭐
 11 | Menamatkan Main Quest dan Side Quest | Mendapatkan sisi lain story yang unik dengan easter egg di dalamnya | ⭐⭐⭐⭐⭐
 12 | Berjalan-jalan di dunia asli | Menikmati pemandangan dunia asli dengan nuansa Indonesia | ⭐⭐⭐⭐⭐
 13 | Berjalan-jalan di dunia Paradigm | Menikmati pemandangan dunia Paradigm yang unik dan menarik | ⭐⭐⭐⭐⭐
@@ -89,9 +90,16 @@ No | Kita Dapat | Sehingga | Prioritas
 30 | Berinteraksi dengan NPC biasa | Mengetahui kondisi yang terjadi dan sejarah dibalik setiap Scene, Menambah persahabatan antar NPC biasa | ⭐⭐⭐
 31 | Menaruh Item di Inventory NPC Teman | Player dapat membawa lebih banyak barang | ⭐⭐⭐
 32 | Berinteraksi dengan Random Event | Player dapat berinteraksi atau membiarkan Random Event berjalan dan akan mendapat konsekuensinya | ⭐⭐⭐
+33 | Shalat di Masjid | Player mendapat buff dan menambah stats personality | ⭐⭐⭐
+34 | Olahraga di Gor Olahraga | Player mendapat buff dan menambah stats personality | ⭐⭐⭐
+35 | Membaca di Perpustakaan | Player mendapat wawasan dan menambah stats personality | ⭐⭐⭐
+36 | Tidur | Player mendapat buff dan memulihkan health, skill, dan energi | ⭐⭐⭐
+37 | Save Game | Player tidak perlu mengulang Game dari awal dan menyimpan banyak game | ⭐⭐⭐⭐⭐
+38 | Load Game | Player dapat memainkan Game dari save data | ⭐⭐⭐⭐⭐
 
 2. NPC Teman
-   NPC Teman adalah NPC yang akan menjadi rekan bertarung kalian dalam melawan NPC Musuh dan menyelesaikan berbagai misi. NPC Teman memiliki keunikan dan jurus masing-masing yang memiliki keunggulan masing-masing dalam melawan musuh dan mengeksplorasi Dunia Nyata dan Dunia Paradigm. NPC Teman akan sering memberi quest dan quest unik jika pertemanan dengan Player besar. NPC Teman memiliki 11 peran unik sebagai berikut.
+
+NPC Teman adalah NPC yang akan menjadi rekan bertarung kalian dalam melawan NPC Musuh dan menyelesaikan berbagai misi. NPC Teman memiliki keunikan dan jurus masing-masing yang memiliki keunggulan masing-masing dalam melawan musuh dan mengeksplorasi Dunia Nyata dan Dunia Paradigm. NPC Teman akan sering memberi quest dan quest unik jika pertemanan dengan Player besar. NPC Teman memiliki 11 peran unik sebagai berikut.
 
 No | Kita Dapat | Sehingga | Prioritas
 --- | --- | --- | ---
@@ -105,14 +113,15 @@ No | Kita Dapat | Sehingga | Prioritas
 8 | Menaruh item player di inventory NPC tersebut | Player dapat membawa lebih banyak item | ⭐⭐⭐⭐⭐
 9 | Menunjuk jalan kepada player | Player tidak tersesat ketika menjalankan misi | ⭐⭐⭐⭐
 10 | Memberi tahu cara kerja puzzle kepada player | Player dapat menyelesaikan puzzle | ⭐⭐⭐⭐
-11 | Mengambil item di sekitar Player | Player tidak perlu manual mengambil player | ⭐⭐⭐⭐
+11 | Mengambil item di sekitar Player | Player tidak perlu manual mengambil item tersebut | ⭐⭐⭐⭐
 
 3. NPC Biasa
-   NPC Biasa adalah NPC yang akan menetap atau berkeliling di Dunia Nyata dan Dunia Paradigm. NPC biasa memiliki berbagai jenis karakter dengan keunikan dan jurus masing-masing tergantung dari dunia dan scene yang ditinggali. NPC biasa di Dunia Paradigm kebanyakan seperti villager dan traveller tidak akan menyerang , namun beberapa NPC akan menyerang jika player bertindak kasar, terutama Guard akan berusaha menangkapmu dan memenjarakanmu jika negosiasi tidak berjalan dengan baik. Player dapat membeli item pada NPC Biasa untuk meningkatkan kekuatan Player. Beberapa NPC akan menawarkan quest kepada player dan akan ada sistem random event setiap Player menjelajahi Dunia Nyata dan Dunia Paradigm. NPC biasa memiliki 6 peran unik sebagai berikut.
+
+NPC Biasa adalah NPC yang akan menetap atau berkeliling di Dunia Nyata dan Dunia Paradigm. NPC biasa memiliki berbagai jenis karakter dengan keunikan dan jurus masing-masing tergantung dari dunia dan scene yang ditinggali. NPC biasa di Dunia Paradigm kebanyakan seperti villager dan traveller tidak akan menyerang , namun beberapa NPC akan menyerang jika player bertindak kasar, terutama Guard akan berusaha menangkapmu dan memenjarakanmu jika negosiasi tidak berjalan dengan baik. Player dapat membeli item pada NPC Biasa untuk meningkatkan kekuatan Player. Beberapa NPC akan menawarkan quest kepada player dan akan ada sistem random event setiap Player menjelajahi Dunia Nyata dan Dunia Paradigm. NPC biasa memiliki 6 peran unik sebagai berikut.
 
 No | Kita Dapat | Sehingga | Prioritas
 --- | --- | --- | ---
-1 | Bergerak di Dunia Paradigm | Menjelajahi berbagai medan lapangan | ⭐⭐⭐⭐⭐
+1 | Bergerak di Dunia Paradigm dan Dunia Nyata | Menjelajahi berbagai medan lapangan | ⭐⭐⭐⭐⭐
 2 | Menyerang Player jika mengancam | Player dapat kalah dari Game | ⭐⭐⭐⭐⭐
 3 | Negosiasi dengan Player | Jika player menjawab dengan benar maka player akan mendapat diskon item | ⭐⭐⭐⭐⭐
 4 | Berinteraksi dengan Player | Mengetahui kondisi yang terjadi dan sejarah dibalik setiap Scene, Menambah persahabatan dengan player | ⭐⭐⭐⭐⭐
@@ -120,7 +129,8 @@ No | Kita Dapat | Sehingga | Prioritas
 6 | Memberi Quest pada Player | Player dapat menjalankan quest dan mendapatkan item | ⭐⭐⭐⭐⭐
 
 4. NPC Musuh
-   NPC Teman adalah NPC yang akan menjadi lawan kalian selama menjalani Game ini. NPC musuh memiliki berbagai jenis karakter dengan keunikan dan jurus masing-masing di Dunia Paradigm seperti Fighter yang harus dipelajari polanya agar dapat melawan musuh tersebut. NPC musuh memiliki 6 peran unik sebagai berikut.
+
+NPC Teman adalah NPC yang akan menjadi lawan kalian selama menjalani Game ini. NPC musuh memiliki berbagai jenis karakter dengan keunikan dan jurus masing-masing di Dunia Paradigm seperti Fighter yang harus dipelajari polanya agar dapat melawan musuh tersebut. NPC musuh memiliki 7 peran unik sebagai berikut.
 
 No | Kita Dapat | Sehingga | Prioritas
 --- | --- | --- | ---
@@ -130,9 +140,11 @@ No | Kita Dapat | Sehingga | Prioritas
 4 | Menaruh jebakan | Player yang tidak hati-hati akan mendapatkan debuff | ⭐⭐⭐⭐⭐
 5 | Menggunakan Skill dalam bertarung | Player harus menghindari skill yang dapat mengakhiri permainan | ⭐⭐⭐⭐⭐
 6 | Menjaga markas Project T | Player tidak dapat mengakses lootingan item langka yang ada disana | ⭐⭐⭐⭐
+7 | Dikalahkan oleh Player | Player akan mendapat item dan Exp | ⭐⭐⭐⭐⭐
 
 5. Class
-   Class adalah objek yang akan diikuti Player di Dunia Nyata. Sebagai pengenalan, Player memasuki jurusan Informatika di Universitas Teknologi, dimana player harus menjalankan Class setiap hari sesuai jadwal Mata Kuliah untuk mendapatkan buff unik dan menaikkan stats personality. Class memiliki 1 peran unik sebagai berikut
+   
+Class adalah objek yang akan diikuti Player di Dunia Nyata. Sebagai pengenalan, Player memasuki jurusan Informatika di Universitas Teknologi, dimana player harus menjalankan Class setiap hari sesuai jadwal Mata Kuliah untuk mendapatkan buff unik dan menaikkan stats personality. Class memiliki 5 peran unik sebagai berikut.
 
 No | Kita Dapat | Sehingga | Prioritas
 --- | --- | --- | ---
@@ -140,10 +152,86 @@ No | Kita Dapat | Sehingga | Prioritas
 2 | Menyediakan Perpustakaan untuk Player | Player mendapat wawasan dan menambah stats personality | ⭐⭐⭐⭐⭐
 3 | Menyediakan Gor Olahraga untuk Player | Player mendapat buff dan menambah stats personality | ⭐⭐⭐⭐⭐
 4 | Menyediakan Masjid untuk Player | Player mendapat buff dan menambah stats personality | ⭐⭐⭐⭐⭐
-5 | Menyediakan Kantin untuk Player | Player dapat membeli item untuk mendapat buff | ⭐⭐⭐⭐⭐
-6 | Menjaga markas Project T | Player mendapat buff dan menambah stats personality | ⭐⭐⭐⭐
+5 | Menyediakan Kantin untuk Player | Player dapat membeli item untuk mendapat buff | ⭐⭐⭐⭐
+
+6. Creator
+
+Creator adalah Boss yang harus dikalahkan player agar dapat pindah ke Scene lain. Boss terakhir dalam game ini yaitu The Ultimate Creator akan menentukan player akan mendapatkan ending apa pada game tersebut. Creator memiliki 6 peran unik sebagai berikut.
+
+No | Kita Dapat | Sehingga | Prioritas
+--- | --- | --- | ---
+1 | Bergerak di Dunia Paradigm | Menjelajahi berbagai medan lapangan | ⭐⭐⭐⭐⭐
+2 | Menyerang Player dan NPC Teman | Player dapat kalah dari Game | ⭐⭐⭐⭐⭐
+3 | Menggunakan Skill dalam bertarung | Player harus menghindari skill yang dapat mengakhiri permainan | ⭐⭐⭐⭐⭐
+4 | Menaruh jebakan | Player yang tidak hati-hati akan mendapatkan debuff | ⭐⭐⭐⭐⭐
+5 | Negosiasi dengan Player | Jika player menjawab dengan benar maka player akan mendapat buff and vice versa | ⭐⭐⭐⭐⭐
+6 | Dikalahkan oleh Player | Player akan mendapat item langka dan membuka Scene baru | ⭐⭐⭐⭐⭐
+
+7. Beast
+
+Beast adalah hewan atau makhluk yang akan ditemui player selama menjelajahi Dunia Paradigm. Beast bertindak layaknya hewan pada umumnya, seperti berburu, mencari makanan, dan tidur, namun ada beberapa Beast yang berakal dan akan memberi quiz pada Player. Beast memiliki 5 peran unik sebagai berikut.
+
+No | Kita Dapat | Sehingga | Prioritas
+--- | --- | --- | ---
+1 | Bergerak di Dunia Paradigm | Menjelajahi berbagai medan lapangan | ⭐⭐⭐⭐⭐
+2 | Menyerang Player dan NPC Teman | Player dapat kalah dari Game | ⭐⭐⭐⭐⭐
+3 | Menggunakan Skill dalam bertarung | Player harus menghindari skill yang dapat mengakhiri permainan | ⭐⭐⭐⭐⭐
+4 | Memberi quiz ke Player | Jika player menjawab dengan benar maka player akan mendapat buff and vice versa | ⭐⭐⭐⭐⭐
+5 | Dibunuh oleh Player | Player akan mendapat exp dan item atau daging untuk dimasak | ⭐⭐⭐⭐⭐
+
+8. Item
+
+Item adalah berbagai barang yang dapat digunakan player untuk menjalani game ini. Item dapat berupa Uang, Senjata, Potion, Makanan, Minuman, Kunci, dan banyak lagi yang dapat dieksplorasi untuk memudahkan player dalam melawan musuh dan menjalani misi. Item memiliki 9 peran unik sebagai berikut.
+
+No | Kita Dapat | Sehingga | Prioritas
+--- | --- | --- | ---
+1 | Digunakan Player sebagai Senjata | Player mendapat kekuatan lebih untuk menyerang musuh | ⭐⭐⭐⭐⭐
+2 | Digunakan Player sebagai Potion | Player mendapat buff | ⭐⭐⭐⭐⭐
+3 | Digunakan Player sebagai Makanan | Player mendapat Health dan energi | ⭐⭐⭐⭐⭐
+4 | Digunakan Player sebagai Minuman | Player mendapat Skill dan energi | ⭐⭐⭐⭐⭐
+5 | Digunakan Player sebagai Uang | Player dapat membeli berbagai Item yang memiliki keunikan masing-masing | ⭐⭐⭐⭐⭐
+6 | Digunakan Player sebagai Buku | Player dapat membaca buku untuk menambah wawasan, buff, dan stats personality | ⭐⭐⭐⭐⭐
+7 | Digunakan Player sebagai Kunci | Player dapat menggunakan kunci untuk membuka quest dan tempat tersembunyi | ⭐⭐⭐⭐
+8 | Digunakan Player sebagai Hiasan | Player dapat menghias rumah, menjualnya, atau melemparnya untuk iseng dan distraksi musuh | ⭐⭐⭐⭐
+9 | Digunakan Player sebagai Barang biasa | Player dapat menjualnya dan melemparnya untuk iseng dan distraksi musuh | ⭐⭐⭐
+
+9. EXP (Experience Point)
+
+Exp atau Experience Point adalah entity yang berguna untuk membuat player menjadi lebih kuat. Selain itu Exp yang tinggi memungkinkan player untuk membuka Item baru, senjata baru, crafting lebih beragam, dan masih banyak lagi. Exp memiliki 7 peran unik sebagai berikut.
+
+No | Kita Dapat | Sehingga | Prioritas
+--- | --- | --- | ---
+1 | Menambah stats Player | Player mendapat kekuatan lebih untuk menyerang musuh | ⭐⭐⭐⭐⭐
+2 | Membuka Item baru | Player mendapat item unik yang berguna untuk kedepannya | ⭐⭐⭐⭐⭐
+3 | Membuka crafting baru | Player mendapat Item unik yang berguna untuk kedepannya | ⭐⭐⭐⭐⭐
+4 | Membuka quest baru | Player dapat meraih exp dan item jika diselesaikan | ⭐⭐⭐⭐⭐
+5 | Membuka multiplayer offline | Player dapat bermain bersama teman di sekitar | ⭐⭐⭐⭐
+6 | Membuka multiplayer online | Player dapat bermain bersama teman di laur | ⭐⭐⭐⭐
+7 | Membuka random event baru | Player dapat menjalankan quest dan mendapatkan item | ⭐⭐⭐⭐
+
+10. Main Menu
+
+Main Menu adalah entity yang akan muncul diawal game sebagai pembuka dalam Game ini. Akan ada berbagai tombol yang memiliki fungsinya masing-masing setelah Player menekan tombol tersebut. Main Menu memiliki 12 peran unik sebagai berikut.
+
+No | Kita Dapat | Sehingga | Prioritas
+--- | --- | --- | ---
+1 | Menampilkan tombol New Game | Player dapat memulai permainan | ⭐⭐⭐⭐⭐
+2 | Menampilkan tombol Load Game | Player dapat memuat game dari game yang telah di save | ⭐⭐⭐⭐⭐
+3 | Menampilkan tombol Option | Player mendapat beragam fungsi tombol untuk mengatur permainan | ⭐⭐⭐⭐⭐
+4 | Menampilkan tombol Minigame | Player dapat memainkan minigame dan adu skor secara singleplayer maupun multiplayer | ⭐⭐⭐⭐⭐
+5 | Menampilkan tombol Extra | Player mendapat bonus konten, cheat, dan cutscene story sebelumnya serta artwork yang dapat dinikmati pemain | ⭐⭐⭐⭐⭐
+6 | Menampilkan tombol Quit | Player dapat keluar dari permainan | ⭐⭐⭐⭐
+7 | Menampilkan tombol Gameplay setelah Option | Player dapat mengatur difficulty sesuai selera dan setingan lain | ⭐⭐⭐⭐
+8 | Menampilkan tombol Grafik setelah Option | Player dapat mengatur grafik sesuai kemampuan device yang dimainkan | ⭐⭐⭐⭐
+9 | Menampilkan tombol Display setelah Option | Player dapat menampilkan atau menghilangkan beberapa UI/UX saat bermain | ⭐⭐⭐⭐
+10 | Menampilkan tombol Audio setelah Option | Player dapat menampilkan atau menghilangkan beberapa audio saat bermain | ⭐⭐⭐⭐
+11 | Menampilkan tombol Language setelah Option | Player dapat mengganti bahasa saat bermain | ⭐⭐⭐⭐
+12 | Menampilkan tombol Accessibility setelah Option | Player inklusi dapat menikmati game dengan menampilkan fitur seperti Buta Warna dan subtitle | ⭐⭐⭐⭐
+
 
 ## 3. Struktur Data
+
+Dari User Story yang telah dibahas, Struktur Data menampung konten tersebut dan memberikan gambaran kepada teman-teman bagaimana Game ini akan berjalan ketika dimainkan.
 
 ```mermaid
 erDiagram
@@ -155,8 +243,8 @@ erDiagram
 
 ```mermaid
 flowchart BT 
-  subgraph cloud
-    B[Web Server: JavaScript ] <--> C[Aplikasi Web Backend: WebGL] 
+  subgraph Cloud
+    B[Web Server: JavaScript ] <--> C[Aplikasi Web Backend: Unity WebGL] 
     C <--> D[Database: MySQL] 
   end
   A{Aplikasi Game PC : C#} <--> B 
