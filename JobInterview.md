@@ -54,7 +54,7 @@ Pada User Story, terdapat banyak entity yang memiliki fungsinya masing-masing, m
 
 1. Player
 
-Player adalah entity utama yang akan digerakkan oleh pemain. Player memiliki 36 peran unik  dalam game ini sebagai berikut
+Player adalah entity utama yang akan digerakkan oleh pemain. Player memiliki 38 peran unik  dalam game ini sebagai berikut
 
 No | Kita Dapat | Sehingga | Prioritas
 --- | --- | --- | ---
@@ -228,6 +228,7 @@ No | Kita Dapat | Sehingga | Prioritas
 11 | Menampilkan tombol Language setelah Option | Player dapat mengganti bahasa saat bermain | ⭐⭐⭐⭐
 12 | Menampilkan tombol Accessibility setelah Option | Player inklusi dapat menikmati game dengan menampilkan fitur seperti Buta Warna dan subtitle | ⭐⭐⭐⭐
 
+Overall pada game ini memiliki 106 User Story untuk sekarang, yang kelak akan dikembangkan lagi ketika game ini berproses.
 
 ## 3. Struktur Data
 
