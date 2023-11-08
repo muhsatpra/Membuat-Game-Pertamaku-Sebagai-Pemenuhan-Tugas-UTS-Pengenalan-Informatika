@@ -390,7 +390,13 @@ Teknologi Informasi yang digunakan untuk membuat game Paradigm Shift adalah Unit
 4. PixelLab digunakan untuk menggunakan desain background, karakter, dan lainnya dalam bentuk gambar dan desain grafis.
 5. BandLab digunakan untuk membuat musik sendiri agar tidak terkena copyright claim ketika mempublish game ke platform publik.
 
-Library = -
+Library =
+1. CharacterController
+2. Vector3 moveDirection
+3. Cursor
+4. AudioClip
+5. UnityEngine.SceneManagement
+6. UnityEngine.UI
 
 Framework = .NET Platform
 
